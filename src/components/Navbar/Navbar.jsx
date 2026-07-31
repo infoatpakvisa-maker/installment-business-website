@@ -10,7 +10,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-600">
-          Installment Business
+          Fazal Electronics
         </Link>
 
         {/* Desktop Menu */}
