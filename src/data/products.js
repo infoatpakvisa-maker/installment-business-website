@@ -6,6 +6,8 @@ const products = [
   {
     id: 1,
     name: "Samsung Galaxy A56",
+    brand: "Samsung",
+    category: "Mobile Phones",
     image: samsungA56,
     price: 95000,
     downPayment: 20000,
@@ -15,6 +17,8 @@ const products = [
   {
     id: 2,
     name: "iPhone 14",
+    brand: "Apple",
+    category: "Mobile Phones",
     image: iphone14,
     price: 180000,
     downPayment: 40000,
@@ -24,6 +28,8 @@ const products = [
   {
     id: 3,
     name: "Dell Inspiron Laptop",
+    brand: "Dell",
+    category: "Laptops",
     image: dellInspiron,
     price: 120000,
     downPayment: 30000,

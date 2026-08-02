@@ -1,27 +1,51 @@
 function ProductCard({ product }) {
   return (
-    <div className="border rounded-xl shadow-md p-4">
+    <div className="bg-white border rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+
       <img
         src={product.image}
         alt={product.name}
-        className="w-full rounded-lg"
+        className="w-full h-56 object-cover"
       />
 
-      <h3 className="text-xl font-bold mt-4">
-        {product.name}
-      </h3>
+      <div className="p-5">
 
-      <p>Price: PKR {product.price}</p>
+        <h3 className="text-xl font-bold">
+          {product.name}
+        </h3>
 
-      <p>Down Payment: PKR {product.downPayment}</p>
+        <p className="text-gray-500 mt-1">
+          Brand: {product.brand}
+        </p>
 
-      <p>{product.duration}</p>
+        <p className="text-gray-500">
+          Category: {product.category}
+        </p>
 
-      <p>Monthly: PKR {product.monthly}</p>
+        <div className="mt-4 space-y-2">
+          <p>
+            <strong>Price:</strong> PKR {product.price}
+          </p>
 
-      <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded">
-        View Details
-      </button>
+          <p>
+            <strong>Down Payment:</strong> PKR {product.downPayment}
+          </p>
+
+          <p>
+            <strong>Monthly:</strong> PKR {product.monthly}
+          </p>
+
+          <p>
+            <strong>Duration:</strong> {product.duration}
+          </p>
+        </div>
+
+        <button className="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+          View Details
+        </button>
+
+      </div>
+
     </div>
   );
 }
