@@ -3,7 +3,7 @@ function ProductCard({ product }) {
     <div className="bg-white border rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
 
       <img
-        src={product.image}
+        src={product.images[0]}
         alt={product.name}
         className="w-full h-56 object-cover"
       />

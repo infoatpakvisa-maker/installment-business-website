@@ -22,7 +22,7 @@ function Navbar() {
           <Link to="/contact">Contact</Link>
 
           <a
-            href="https://wa.me/923001234567"
+            href="https://wa.me/923325280260"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-green-600"
