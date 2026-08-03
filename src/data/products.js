@@ -43,17 +43,15 @@ import TCLBack from "../assets/images/products/televisions/TCL/back.jpg";
 import TCLSide from "../assets/images/products/televisions/TCL/sude.jpg";
 import TCLBox from "../assets/images/products/televisions/TCL/box.jpg";
 // Super-Asia
-import SuperAsiaFront from "../assets/images/products/air-coolers/super-asia/front.webp";
-import SuperAsiaBack from "../assets/images/products/air-coolers/super-asia/back.jpg";
-import SuperAsiaSide from "../assets/images/products/air-coolers/super-asia/side.jpg";
-import SuperAsiaBox from "../assets/images/products/air-coolers/super-asia/box.webp";
-
-
+import SuperAsiaFront from "../assets/images/products/Air-Coolers/Super-Asia/front.webp";
+import SuperAsiaBack from "../assets/images/products/Air-Coolers/Super-Asia/back.jpg";
+import SuperAsiaSide from "../assets/images/products/Air-Coolers/Super-Asia/side.jpg";
+import SuperAsiaBox from "../assets/images/products/Air-Coolers/Super-Asia/box.webp";
 // boss
-import BossFront from "../assets/images/products/air-coolers/Boss/front.jpg";
-import BossBack from "../assets/images/products/air-coolers/Boss/back.jpg";
-import BossSide from "../assets/images/products/air-coolers/Boss/side.jpg";
-import BossBox from "../assets/images/products/air-coolers/Boss/box.jpg";
+import BossFront from "../assets/images/products/Air-Coolers/Boss/front.jpg";
+import BossBack from "../assets/images/products/Air-Coolers/Boss/back.jpg";
+import BossSide from "../assets/images/products/Air-Coolers/Boss/side.jpg";
+import BossBox from "../assets/images/products/Air-Coolers/Boss/box.jpg";
 // dell
 import DellFront from "../assets/images/products/laptops/Dell/front.jpg";
 import DellBack from "../assets/images/products/laptops/Dell/back.jpg";
