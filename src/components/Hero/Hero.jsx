@@ -8,7 +8,7 @@ function Hero() {
         {/* Left Side */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Fazal Electronics | Easy Installments in Rawalpindi
+            Buy Genuine Electronics on Easy Installments
           </h1>
 
           <p className="mt-6 text-gray-600">
