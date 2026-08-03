@@ -47,6 +47,8 @@ import SuperAsiaFront from "../assets/images/products/air-coolers/super-asia/fro
 import SuperAsiaBack from "../assets/images/products/air-coolers/super-asia/back.jpg";
 import SuperAsiaSide from "../assets/images/products/air-coolers/super-asia/side.jpg";
 import SuperAsiaBox from "../assets/images/products/air-coolers/super-asia/box.webp";
+
+
 // boss
 import BossFront from "../assets/images/products/air-coolers/Boss/front.jpg";
 import BossBack from "../assets/images/products/air-coolers/Boss/back.jpg";
