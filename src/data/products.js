@@ -20,6 +20,12 @@ import fanback from "../assets/images/products/fans/royal-fan/back.webp";
 import fanside from "../assets/images/products/fans/royal-fan/side.jpg";
 import fanbox from "../assets/images/products/fans/royal-fan/box.jpg";
 
+// Samsung TV
+import tvFront from "../assets/images/products/televisions/samsung-55-inch/front.webp";
+import tvBack from "../assets/images/products/televisions/samsung-55-inch/back.jpg";
+import tvSide from "../assets/images/products/televisions/samsung-55-inch/side.webp";
+import tvRemote from "../assets/images/products/televisions/samsung-55-inch/remote.jpg";
+
 const products = [
   {
     id: 1,
@@ -71,6 +77,19 @@ const products = [
     price: 12500,
     downPayment: 3000,
     monthly: 792,
+    duration: "12 Months",
+  },
+  {
+    id: 5,
+    name: "Samsung 55 Inch Smart TV",
+    brand: "Samsung",
+    category: "TVs",
+
+    images: [tvFront, tvBack, tvSide, tvRemote],
+
+    price: 165000,
+    downPayment: 35000,
+    monthly: 10833,
     duration: "12 Months",
   },
 ];
