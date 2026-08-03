@@ -227,7 +227,7 @@ const products = [
   },
   {
     id: 11,
-    name: "Laptop",
+    name: "Dell Inspiron 15",
     brand: "Dell",
     category: "Computer",
 
@@ -240,7 +240,7 @@ const products = [
   },
   {
     id: 12,
-    name: "Laptop",
+    name: "HP Pavilion 15",
     brand: "HP",
     category: "Computer",
 
@@ -255,7 +255,7 @@ const products = [
     id: 13,
     name: "Gree",
     brand: "Gree",
-    category: "Refrigerator",
+    category: "Air Conditioners",
 
     images: [GreeFront, GreeBack, GreeSide, GreeBox],
 
@@ -266,9 +266,9 @@ const products = [
   },
   {
     id: 14,
-    name: "Haier",
+    name: "Haier HRF-336",
     brand: "Haier",
-    category: "Refrigerator",
+    category: "Air Conditioners",
 
     images: [HaierFront, HaierBack, HaierSide, HaierBox],
 
@@ -281,7 +281,7 @@ const products = [
     id: 15,
     name: "Dawlance ",
     brand: "Dawlance",
-    category: "washing machine",
+    category: "Refrigerators",
 
     images: [DawlanceFront, DawlanceBack, DawlanceSide, DawlanceBox],
 
@@ -294,7 +294,7 @@ const products = [
     id: 16,
     name: "Haier ",
     brand: "Haier",
-    category: "washing machine",
+    category: "Refrigerators",
 
     images: [HaierfridgFront, HaierfridgBack, HaierfridgSide, HaierfridgBox],
 
@@ -320,7 +320,7 @@ const products = [
     id: 18,
     name: "Dawlance ",
     brand: "Dawlance",
-    category: "Apple",
+    category: "washing machine",
 
     images: [DawlanceWashFront, DawlanceWashBack, DawlanceWashSide, DawlanceWashBox],
 
