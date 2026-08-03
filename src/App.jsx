@@ -6,6 +6,7 @@ import Products from "./pages/Products/Products";
 import FAQ from "./pages/FAQ/FAQ";
 import Contact from "./pages/Contact/Contact";
 import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
+import NotFound from "./pages/NotFound/NotFound";
 function App() {
   return (
      <>
@@ -15,6 +16,7 @@ function App() {
       <Route path="/products" element={<Products />} />
       <Route path="/faq" element={<FAQ />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
 
     </Routes>
     <WhatsAppButton />

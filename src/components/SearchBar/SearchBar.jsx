@@ -1,12 +1,12 @@
-function SearchBar() {
+function SearchBar({ searchTerm, setSearchTerm }) {
   return (
-    <div className="mb-6">
-      <input
-        type="text"
-        placeholder="Search products..."
-        className="w-full border rounded-lg px-4 py-3"
-      />
-    </div>
+    <input
+      type="text"
+      placeholder="🔍 Search products..."
+      value={searchTerm}
+      onChange={(e) => setSearchTerm(e.target.value)}
+      className="w-full border rounded-lg p-3"
+    />
   );
 }
 

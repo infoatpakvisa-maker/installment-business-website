@@ -1,20 +1,24 @@
-const categories = [
-  "All",
-  "Mobile Phones",
-  "Laptops",
-  "TVs",
-  "Refrigerators",
-  "Air Conditioners",
-  "Home Appliances",
-];
+function CategoryFilter({ selectedCategory, setSelectedCategory }) {
+  const categories = [
+    "All",
+    "Mobile Phones",
+    "Laptops",
+    "TVs",
+    "Refrigerators",
+    "Air Conditioners",
+  ];
 
-function CategoryFilter() {
   return (
-    <div className="flex flex-wrap gap-3">
+    <div className="flex flex-wrap gap-3 my-6">
       {categories.map((category) => (
         <button
           key={category}
-          className="bg-blue-100 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-lg"
+          onClick={() => setSelectedCategory(category)}
+          className={`px-4 py-2 rounded-lg ${
+            selectedCategory === category
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200"
+          }`}
         >
           {category}
         </button>
