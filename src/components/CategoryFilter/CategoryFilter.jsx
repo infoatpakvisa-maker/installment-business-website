@@ -7,6 +7,7 @@ function CategoryFilter({ selectedCategory, setSelectedCategory }) {
     "Refrigerators",
     "Air Conditioners",
     "Fans",
+    "Air Coolers",
   ];
 
   return (
