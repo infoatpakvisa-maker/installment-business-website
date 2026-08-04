@@ -8,9 +8,11 @@ import Contact from "./pages/Contact/Contact";
 import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 import NotFound from "./pages/NotFound/NotFound";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 function App() {
   return (
      <>
+      <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
