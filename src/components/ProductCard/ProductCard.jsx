@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function ProductCard({ product }) {
   return (
     <div className="bg-white border rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
@@ -40,9 +41,12 @@ function ProductCard({ product }) {
           </p>
         </div>
 
-        <button className="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+        <Link
+          to={`/products/${product.id}`}
+          className="block mt-6 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition text-center"
+        >
           View Details
-        </button>
+        </Link>
 
       </div>
 
