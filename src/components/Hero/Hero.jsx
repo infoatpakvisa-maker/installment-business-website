@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 import heroImage from "../../assets/hero2.jpeg";
 function Hero() {
@@ -18,7 +19,9 @@ function Hero() {
           </p>
 
           <div className="mt-8 flex gap-4">
-            <Button>View Products</Button>
+            <Link to="/products">
+  <Button>View Products</Button>
+</Link>
 
             <a
               href="https://wa.me/+923325280260"
